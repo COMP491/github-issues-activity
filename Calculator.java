@@ -32,7 +32,7 @@ public class Calculator {
 	 *            a double
 	 * @return x - y
 	 */
-	public static double sub(double x, double y) {
+	public double sub(double x, double y) {
 		return x - y;
 	}
 
@@ -45,7 +45,7 @@ public class Calculator {
 	 *            a double
 	 * @return x * y
 	 */
-	public static double mult(double x, double y) {
+	public double mult(double x, double y) {
 		return x*y;
 	}
 
@@ -58,7 +58,7 @@ public class Calculator {
 	 *            a double
 	 * @return x/y
 	 */
-	public static double div(double x, double y) {
+	public double div(double x, double y) {
 		return y / x;
 	}
 
@@ -84,6 +84,7 @@ public class Calculator {
 	 *            the length of the other side.
 	 * @return the area of a rectangle with sides x and y.
 	 */
+
 	public static double rectangleArea(double x, double y) {
 		return 2 * x + 2 * y;
 	}
@@ -108,7 +109,7 @@ public class Calculator {
 	 *            the radius
 	 * @return the area of a circle with radius r.
 	 */
-	public static double cirAr(double r) {
+	public static double circleArea(double r) {
 		return Math.PI * Math.pow(r,2);
 	}
 
@@ -119,8 +120,8 @@ public class Calculator {
 	 *            the radius
 	 * @return the perimeter of a circle with radius r.
 	 */
-	public static double cirPer(double r) {
-		return Math.PI * 2 * r;
+	public double cirPer(double r) {
+		return Math.PI * r * r;
 	}
 
 	/**
